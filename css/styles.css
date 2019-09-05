@@ -1,0 +1,93 @@
+* {
+    box-sizing:border-box;
+}
+
+.images {
+    /* transition: 1s; */
+    float: left;
+    width: 94%;
+    /* padding: 10px; 32 50 94 */
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#galleryUl {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+input {
+    /* width: 100%; Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 25px; /* Add some space below the input */
+    margin: 2rem auto;
+    width: 45%; 
+    display: block;
+}
+/* .lb-nav a.lb-prev,
+.lb-nav a.lb-next {
+    position: absolute;
+    width: 100%;
+} */
+.lb-data .lb-details {
+    margin: 10px 0;
+}
+.lb-data .lb-number {
+    display: none !important;
+}
+.lightbox .lb-image {
+    border: none;
+}
+element {
+    width: 484px;
+    height: 306px;
+}
+
+@media (min-width: 768px) {
+    .images {
+        /* transition: 1s; */
+        float: left;
+        width: 50%;
+        /* padding: 10px; 32 50 94 */
+        text-align: center;
+        padding-bottom: 25px;
+    }
+}
+@media (min-width: 890px) { 
+    .images {
+        /* transition: 1s; */
+        float: left;
+        width: 33%;
+        /* padding: 10px; 32 50 94 */
+        text-align: center;
+        padding-bottom: 25px;
+    }
+}
+@media (min-width: 1024px) {
+    .images {
+        /* transition: 1s; */
+        float: left;
+        width: 25%;
+        /* padding: 10px; 32 50 94 */
+        text-align: center;
+        padding-bottom: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
