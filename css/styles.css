@@ -1,7 +1,9 @@
 * {
     box-sizing:border-box;
 }
-
+img {
+    border-radius: 13px;
+}
 .images {
     /* transition: 1s; */
     float: left;
@@ -25,6 +27,7 @@ input {
     margin: 2rem auto;
     width: 45%; 
     display: block;
+    border-radius: 10px;
 }
 /* .lb-nav a.lb-prev,
 .lb-nav a.lb-next {
@@ -37,12 +40,20 @@ input {
 .lb-data .lb-number {
     display: none !important;
 }
+.lb-data .lb-caption {
+    font-size: 17px;
+}
 .lightbox .lb-image {
     border: none;
+    max-width: 784px;
+    max-height: 506px;
 }
 element {
     width: 484px;
     height: 306px;
+}
+body {
+    background-color: lightslategray;
 }
 
 @media (min-width: 768px) {
