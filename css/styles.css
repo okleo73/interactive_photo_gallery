@@ -5,10 +5,8 @@ img {
     border-radius: 13px;
 }
 .images {
-    /* transition: 1s; */
     float: left;
     width: 94%;
-    /* padding: 10px; 32 50 94 */
     text-align: center;
     padding-bottom: 25px;
 }
@@ -19,21 +17,15 @@ img {
     margin: 0;
 }
 input {
-    /* width: 100%; Full-width */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
-    margin-bottom: 25px; /* Add some space below the input */
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 25px; 
     margin: 2rem auto;
     width: 45%; 
     display: block;
     border-radius: 10px;
 }
-/* .lb-nav a.lb-prev,
-.lb-nav a.lb-next {
-    position: absolute;
-    width: 100%;
-} */
 .lb-data .lb-details {
     margin: 10px 0;
 }
@@ -58,30 +50,24 @@ body {
 
 @media (min-width: 768px) {
     .images {
-        /* transition: 1s; */
         float: left;
         width: 50%;
-        /* padding: 10px; 32 50 94 */
         text-align: center;
         padding-bottom: 25px;
     }
 }
 @media (min-width: 890px) { 
     .images {
-        /* transition: 1s; */
         float: left;
         width: 33%;
-        /* padding: 10px; 32 50 94 */
         text-align: center;
         padding-bottom: 25px;
     }
 }
 @media (min-width: 1024px) {
     .images {
-        /* transition: 1s; */
         float: left;
         width: 25%;
-        /* padding: 10px; 32 50 94 */
         text-align: center;
         padding-bottom: 25px;
     }
